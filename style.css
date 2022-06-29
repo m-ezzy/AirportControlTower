@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    overflow: hidden;
+}
+canvas {
+    width:auto;
+    height:auto;
+}
+div {
+    position:sticky;
+    bottom:0px;
+    left:0px;
+    width:100vw;
+    height:5vh;
+    background-color: rgba( 255, 255, 255, 0.05 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+input {
+    width:20vw;
+    height:5vh;
+    font-size:20;
+}
